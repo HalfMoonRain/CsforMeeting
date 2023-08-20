@@ -12,8 +12,8 @@ class Singleton{
 }
 const a = new Singleton()
 const b = new Singleton()
-console.log(a)
-console.log(a.getInstance)
-console.log(a.constructor())
+// console.log(a)
+// console.log(a.getInstance)
+// console.log(a.constructor())
 
 console.log(a===b)
